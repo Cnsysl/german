@@ -408,7 +408,7 @@ elif page == "Tahminleme":
     cat_cols, num_cols, cat_but_car = grab_col_names(df)
 
 
-    df = pd.read_csv("/Users/cansuuysal/Desktop/german_credit_data.csv", sep=';')
+    df = pd.read_csv("german_credit_data.csv", sep=';')
     df = df.drop(columns=["Unnamed: 0"])
     num_cols = [col for col in num_cols if 'Unnamed: 0' not in col]
     cat_cols, num_cols, cat_but_car = grab_col_names(df)
