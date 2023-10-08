@@ -44,7 +44,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import math
 warnings.filterwarnings("ignore")
-df = pd.read_csv("/Users/cansuuysal/Desktop/german_credit_data.csv", sep=';')
+df = pd.read_csv("german_credit_data.csv", sep=';')
 df = df.drop(columns=["Unnamed: 0"])
 #df = [col.upper() for col in df.columns]
 
